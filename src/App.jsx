@@ -1,16 +1,18 @@
-// src/App.jsx
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import LoginPage from './Pages/LoginPage';
 import Dashboard from './Pages/DashboardPage';
 import AdminDashboard from './Pages/AdminDashboard';
+import {Toaster} from "react-hot-toast"
 
 /**
  * App - top-level router + shell
  */
-export default function App() {
+function App() {
   return (
-    <BrowserRouter>
+    <>
+    <Toaster position="top-right" reverseOrder={false} />
+    <BrowserRouter>    
       <Routes>
         <Route path="/" element={<LoginPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
@@ -19,5 +21,8 @@ export default function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
+    </>
   );
 }
+
+export default App
