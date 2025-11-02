@@ -8,7 +8,7 @@ function LeaveHistory({ leaves, onStatusChange, isAdmin }) {
   }
 
   return (
-    <div className="mt-8 bg-white/20 backdrop-blur-lg rounded-2xl shadow-lg p-6 border border-white/10 hover:shadow-blue-400/40 hover:scale-105">
+    <div className="mt-8 bg-gradient-to-r from-blue-700 via-indigo-800 to-purple-90 backdrop-blur-lg rounded-2xl shadow-lg p-6 border border-white/10 hover:shadow-blue-400/40 hover:scale-105">
       {/* heading */}
       <h3 className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text drop-shadow-lg shadow-pink-500/60 hover:shadow-blue-400/80 transition-all duration-300 mb-6 flex items-center gap-2">
         Leave Records

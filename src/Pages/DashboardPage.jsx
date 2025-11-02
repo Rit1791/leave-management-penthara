@@ -54,7 +54,7 @@ function Dashboard() {
             <h3 className="text-2xl font-bold text-gray-100 mb-2 border-b border-white/30 inline-block pb-2">
               Apply for Leave
             </h3>
-            <div className="mt-6 flex justify-center">
+            <div className="mt-6 flex justify-center ">
               <LeaveForm onSubmit={handleNewLeave} MAX_LEAVES={MAX_LEAVES} />
             </div>
           </section>

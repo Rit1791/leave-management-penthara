@@ -65,7 +65,7 @@ function LeaveForm({ onSubmit ,MAX_LEAVES}) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="my-8 p-6 border border-white/20 rounded-2xl bg-white/10 backdrop-blur-lg shadow-2xl text-white space-y-6  transition-all duration-300 hover:shadow-blue-400/40 w-full max-w-lg mx-auto hover:scale-105 ">
+    <form onSubmit={handleSubmit} className="my-8 p-6 border border-white/20 rounded-2xl bg-gradient-to-l from-blue-700 via-indigo-800 to-purple-90 backdrop-blur-lg shadow-2xl text-white space-y-6  transition-all duration-300 hover:shadow-blue-400/40 w-full max-w-lg mx-auto hover:scale-105 ">
 
       <h3 className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text drop-shadow-lg shadow-pink-500/60 hover:shadow-blue-400/80 transition-all duration-300 mb-6 flex items-center gap-2">
         New Leave Request
@@ -121,6 +121,7 @@ function LeaveForm({ onSubmit ,MAX_LEAVES}) {
         <span className='font-bold'>Note:</span> For a single-day leave, please enter the same date in both <span className='font-bold'>From Date</span> and <span className='font-bold'>To Date</span> fields.
       </p>
     </form>
+
   );
 }
 
