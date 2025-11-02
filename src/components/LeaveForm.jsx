@@ -65,7 +65,7 @@ function LeaveForm({ onSubmit ,MAX_LEAVES}) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="my-8 p-6 border border-white/20 rounded-2xl bg-gradient-to-br from-indigo-700 via-purple-700 to-blue-700  shadow-2xl text-white space-y-6  transition-all duration-300 hover:shadow-blue-400/40 w-full max-w-lg mx-auto hover:scale-105 ">
+    <form onSubmit={handleSubmit} className="my-8 p-6 border border-white/20 rounded-2xl bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700  shadow-2xl text-white space-y-6  transition-all duration-300 hover:shadow-blue-400/40 w-full max-w-lg mx-auto hover:scale-105 ">
 
       <h3 className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text drop-shadow-lg shadow-pink-500/60 hover:shadow-blue-400/80 transition-all duration-300 mb-6 flex items-center gap-2">
         New Leave Request
